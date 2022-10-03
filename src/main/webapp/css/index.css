@@ -1,0 +1,212 @@
+/***************************
+ ESTILOS GENERALES
+****************************/
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+    border-radius: 0px !important;
+}
+
+body{
+    font-size: 18px;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* NAV */
+nav{
+    background: #24572B;
+}
+
+/* Logotipo / Nombre */
+nav .navbar-brand{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+/* Links de navegación */
+nav .navbar-nav .nav-link{
+    color: #D7D7D7 !important;
+}
+
+/* Enlace activo */
+nav .nav-item .active{
+    font-weight: bold;
+    color: #FFF !important;
+}
+
+/* Buttons - btn */
+.btn-success{
+    background: #24572B !important;
+}
+
+    /** Al pasar sobre el botón success **/
+    .btn-success:hover{
+        background-color: #2A8036 !important;
+        border-color: #2A8036 !important;
+    }
+
+/* Backgrounds */
+.bg-success{
+    background: #24572B !important;
+}
+
+/* Inputs del formulario */
+input{
+    border: 0;
+    font-size: 0.9rem !important;
+    border-radius: 4.5px !important;
+}
+
+/* Footer */
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #24572B;
+    color: #FFF;
+}
+
+/***************************
+ PÁGINA PRINCIPAL - INDEX
+****************************/
+/* SLIDERS */
+.container-slider{
+    width: 100%;
+}
+
+.container-slider h3{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+/* Títulos principales */
+.title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: .6px;
+}
+
+/* CARD BODY */
+.section-card .card-body{
+    margin: 0;
+    padding: 0;
+    background-color: #511414;
+    color: #FFF;
+}
+
+.section-card .card-body .card-title{
+    background-color: #3B0303;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-card .card-body .card-name{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-card .card-body .card-city{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-card .card-body .card-text{
+    font-size: 14.5px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-card .card-body a{
+    color: #FFF;
+}
+
+/* Botón Ver más.. */
+.section-card .card-body .btn-card{
+    background-color: #2A8036;
+    color: #FFF;
+}
+
+    /** Al pasar sobre el botón de Ver más.. **/
+    .section-card .card-body .btn-card:hover{
+        background-color: #A1C26A;
+    }
+
+/***************************
+ PÁGINA DEL LOGIN - INICIO DE SESIÓN
+****************************/
+/** Imagen de fondo - Iniciar sesión **/
+.bg-login-image{
+    background: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+}
+
+/** Botón iniciar sesión */
+.btn-outline-success{
+    border-color: #378149 !important;
+    color: #378149;
+    font-weight: normal;
+}
+
+    /** Al pasar sobre btn-outline-success */
+    .btn-outline-success:hover{
+        border-color: #378149;
+        background-color: #378149;
+    }
+
+/***************************
+ PÁGINA DEL REGISTER - REGISTRO DE USUARIO
+****************************/
+/* btn-register */
+.btn-register{
+    background: #009141 !important;
+    color: #FFF;
+    margin-top: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+    /** Al pasar sobre el botón register **/
+    .btn-register:hover{
+        background: #074A25 !important;
+        color: #FFF;
+        transition: .4s;
+    }
+
+/***************************
+ PÁGINA HOME - INICIO DE USUARIOS
+****************************/
+#main-menu{
+    left: unset;
+    right: 0;
+}
+
+#ordenar-categoria{
+    cursor: pointer;
+}
+
+#form-container{
+    width: 40vw;
+}
